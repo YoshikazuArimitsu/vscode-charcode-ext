@@ -1,26 +1,23 @@
 {
 	"name": "vscode-charcode-ext",
-	"displayName": "vscode-charcode-ext",
+	"displayName": "Display character code",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "yarimit",
 	"engines": {
 		"vscode": "^1.39.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/YoshikazuArimitsu/vscode-charcode-ext"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
@@ -38,5 +35,9 @@
 		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"@types/encoding-japanese": "^1.0.15",
+		"encoding-japanese": "^1.0.30"
 	}
 }
