@@ -2,7 +2,7 @@
 	"name": "vscode-charcode-ext",
 	"displayName": "Display character code",
 	"description": "カーソル位置の文字コードを表示する機能拡張",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "yarimit",
 	"engines": {
 		"vscode": "^1.39.0"
