@@ -27,11 +27,11 @@
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
-		"@types/mocha": "^5.2.7",
+		"@types/mocha": "^10.0.10",
 		"@types/node": "^12.11.7",
 		"@types/vscode": "^1.39.0",
 		"glob": "^7.1.5",
-		"mocha": "^6.2.2",
+		"mocha": "^11.8.0",
 		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
@@ -39,5 +39,9 @@
 	"dependencies": {
 		"@types/encoding-japanese": "^1.0.15",
 		"encoding-japanese": "^1.0.30"
+	},
+	"overrides": {
+		"diff": "^9.0.0",
+		"serialize-javascript": "^7.1.0"
 	}
 }
